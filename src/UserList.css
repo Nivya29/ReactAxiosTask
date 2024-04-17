@@ -1,0 +1,78 @@
+
+.user-list-container {
+    padding: 10px;
+}
+
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    background-color: #f9f9f9; 
+}
+
+
+.user-details {
+    flex: 1; 
+}
+
+
+.user-name {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold;
+}
+
+
+.user-email {
+    display: block;
+    color: #555; 
+}
+
+
+.user-actions {
+    display: flex;
+    gap: 10px; 
+}
+
+
+.edit-button {
+    padding: 0px 27px 0px 27px; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.delete-button {
+    padding: 0px 20px; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.edit-button {
+    background-color: #007bff; 
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; 
+}
+
+.delete-button {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c82333; 
+}
